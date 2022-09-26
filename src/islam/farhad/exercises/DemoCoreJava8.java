@@ -1,4 +1,4 @@
-package islam.farhad.corejavaexecises;
+package islam.farhad.exercises;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,15 +6,18 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class DemoCoreJava8 {
+
     public static void main(String [] args){
 
-        System.out.println("Demo Core Java");
-
+      /*  demoLoop();
+        demo();*/
         demoSwitch();
+        demoArray();
         isLeapYear(1985);
         System.out.println(isLeapYear(1985));
         demoIterator();
         demoUserInput();
+
     }
 
     public static void demoUserInput(){
@@ -32,28 +35,28 @@ public class DemoCoreJava8 {
         }
 
     }
-    public static void demoIterator(){
+     public static void demoIterator(){
 
         List<Integer> nums = List.of(1,2,3,4,5,6);
         System.out.println("Using enhanced for-loop");
         nums.forEach(System.out::println);
 
-        System.out.println("Using Iterator");
-        Iterator<Integer> iterator = nums.iterator();
-        while(iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
+         System.out.println("Using Iterator");
+         Iterator<Integer> iterator = nums.iterator();
+         while(iterator.hasNext()){
+             System.out.println(iterator.next());
+         }
 
-        System.out.println(" ");
-        System.out.println("Using list iterator");
-        ListIterator<Integer> listIterator = nums.listIterator();
-        listIterator.forEachRemaining(System.out::println);
+         System.out.println(" ");
+         System.out.println("Using list iterator");
+         ListIterator<Integer> listIterator = nums.listIterator();
+         listIterator.forEachRemaining(System.out::println);
 
-        System.out.println("Using Stream API");
-        nums.stream().forEach(System.out::println);
+         System.out.println("Using Stream API");
+         nums.stream().forEach(System.out::println);
 
 
-    }
+     }
 
     public static void demo(){
 
@@ -117,15 +120,39 @@ public class DemoCoreJava8 {
                 System.out.println(s);
             }
 
+            }
+        }
+
+        private static Boolean isLeapYear(int year){
+               if (((year % 4 == 0) &&
+                    !(year % 100 == 0))
+                    || (year % 400 == 0))
+                   return Boolean.TRUE;
+               else
+                   return Boolean.FALSE;
+        }
+        private static void demoArray(){
+
+            byte[] anArrayOfBytes;
+            short[] anArrayOfShorts;
+            long[] anArrayOfLongs;
+            float[] anArrayOfFloats;
+            double[] anArrayOfDoubles;
+            boolean[] anArrayOfBooleans;
+            char[] anArrayOfChars;
+            String[] anArrayOfStrings;
+
+            int [] arrayOfIntergers = new int [5];
+            arrayOfIntergers[0] = 23;
+            arrayOfIntergers[1] = 43;
+            arrayOfIntergers[2] = 54;
+            arrayOfIntergers[3] = 71;
+
+            for (int i : arrayOfIntergers){
+                System.out.println(i);
+            }
         }
     }
 
-    private static Boolean isLeapYear(int year){
-        if (((year % 4 == 0) &&
-                !(year % 100 == 0))
-                || (year % 400 == 0))
-            return Boolean.TRUE;
-        else
-            return Boolean.FALSE;
-    }
-}
+
+
