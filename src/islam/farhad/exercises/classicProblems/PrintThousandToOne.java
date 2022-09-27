@@ -1,5 +1,5 @@
 
-package islam.farhad.exercises;
+package islam.farhad.exercises.classicProblems;
 
 public class PrintThousandToOne {
 
