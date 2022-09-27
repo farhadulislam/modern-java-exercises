@@ -1,4 +1,4 @@
-package islam.farhad.exercises;
+package islam.farhad.exercises.fundametals;
 
 /* This class is related to Generics demo class */
 

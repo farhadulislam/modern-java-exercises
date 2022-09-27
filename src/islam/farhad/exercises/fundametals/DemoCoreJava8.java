@@ -1,4 +1,4 @@
-package islam.farhad.exercises;
+package islam.farhad.exercises.fundametals;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package islam.farhad.exercises;
+package islam.farhad.exercises.fundametals;
 
 public final class DemoFinalClass {
 

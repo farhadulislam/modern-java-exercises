@@ -26,7 +26,7 @@ public class DemoOptionals2 {
             System.out.println(emailOptional2.get());
         }
         System.out.println(emailOptional2.orElse("default@gmail.com"));
-        //orElseGet() method can be used which a Supplier as argument
+        //orElseGet() method can be used which takes Supplier as argument
         System.out.println(emailOptional2.map(String::toUpperCase).orElseGet(()-> "dafault@gmail.com ...."));
 
     }
