@@ -1,7 +1,7 @@
 package islam.farhad.exercises;
 
-import islam.farhad.exercises.fundametals.Employee;
-import islam.farhad.exercises.fundametals.EmployeeDB;
+import islam.farhad.exercises.javaFundamentals.Employee;
+import islam.farhad.exercises.javaFundamentals.EmployeeDB;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -27,7 +27,7 @@ public class DemoFilter1 {
 
         map.forEach((k,v)-> System.out.println(k + ":" + v));
         map.entrySet().stream().forEach((mpaObj)-> System.out.println("Using stream\n" + mpaObj));
-        map.keySet().stream().forEach((mpaObj)-> System.out.println(mpaObj)); // will only print keys .
+        map.keySet().stream().forEach((key)-> System.out.println(key)); // will only print keys .
         //filter
         map.entrySet().stream().filter(k -> k.getValue()%2==0).forEach(obj -> System.out.println(obj));
 
