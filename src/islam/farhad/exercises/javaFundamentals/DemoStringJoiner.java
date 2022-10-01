@@ -1,8 +1,12 @@
 package islam.farhad.exercises.javaFundamentals;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.StringJoiner;
+import java.util.stream.Collectors;
 
-public class DemoJavaStringJoiner {
+public class DemoStringJoiner {
 
     public static void main(String[] args) {
 
@@ -16,6 +20,8 @@ public class DemoJavaStringJoiner {
 
         StringJoiner joined = joiner1.merge(joiner2);
         System.out.println(joined);
+
+
 
 
     }
