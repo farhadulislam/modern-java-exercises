@@ -13,6 +13,11 @@ public class Employee {
         this.salary = salary;
     }
 
+    //No args constructor
+    public Employee(){
+        this(2002, "Demo", "Unemployed", 0);
+    }
+
 
     public int getId() {
         return id;
