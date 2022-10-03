@@ -1,4 +1,5 @@
-package islam.farhad.exercises.fundametals;
+package islam.farhad.exercises.javaFundamentals;
+
 
 import java.sql.SQLOutput;
 import java.util.*;
