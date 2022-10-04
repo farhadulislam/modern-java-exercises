@@ -19,7 +19,8 @@ public class Prime {
     private static boolean isPrime(int n){
 
         if (n < 0) return false;
-        else if (n%2==0) return false;
+        else if (n==2) return true;
+        else if (n>2 && n%2==0) return false;
         else return true;
 
     }
