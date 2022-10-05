@@ -49,6 +49,34 @@ public class DemoCollectionInterface1 {
         hashMap1.replaceAll((k, v) -> v.toUpperCase());
         hashMap1.forEach( (k, v)-> System.out.println(k + " | " + v));
 
+        // HasMap - some useful methods to go with
+        Map<String, Integer> hashMap2 = new HashMap<>();
+
+        hashMap2.put( "Aziz", 1110);
+        hashMap2.put( "Tarik", 2220);
+        hashMap2.put( "Abid", 3330);
+        hashMap2.put( "Hassan", 4440);
+
+        System.out.println(hashMap2.get("Hassan"));
+        System.out.println(hashMap2.containsKey("James"));
+        System.out.println(hashMap2.containsValue(1110));
+
+        hashMap2.put("Aziz", 0);
+        System.out.println(hashMap2);
+        hashMap2.replace("Aziz", 0);
+        System.out.println(hashMap2);
+
+        hashMap2.putIfAbsent("Minhaj", 9999);
+        System.out.println(hashMap2);
+
+        
+
+
+
+
+
+
+
 
 
 
