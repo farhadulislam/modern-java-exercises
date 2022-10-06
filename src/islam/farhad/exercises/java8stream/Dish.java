@@ -1,5 +1,7 @@
 package islam.farhad.exercises.java8stream;
 
+import static islam.farhad.exercises.java8stream.Dish.DishType.*;
+
 public class Dish {
     public enum DishType{
         MEAT, FISH, VEG, OTHER
@@ -15,7 +17,9 @@ public class Dish {
         this.calorie = calorie;
         this.dishAvailable = dishAvailable;
     }
-
+    public boolean isVegetarian(){
+        return dishType== VEG;
+    }
     public DishType getDishType() {
         return dishType;
     }
