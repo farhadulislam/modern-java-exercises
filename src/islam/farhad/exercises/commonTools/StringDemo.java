@@ -1,5 +1,7 @@
 package islam.farhad.exercises.commonTools;
 
+import java.time.LocalDate;
+
 public class StringDemo {
 
     public static void main (String ... args) {
@@ -13,6 +15,15 @@ public class StringDemo {
         name.strip();
         name.indexOf('a');
         name.replace('F', 'D');
+
+        String firstName = "Farhad";
+        String lastName = "Islam";
+        String middleName = "Ul";
+
+
+        String fullName = String.format("My name is %3$s %1$s %2$s %nAnd, %1$s is my first name", firstName, middleName, lastName);
+
+
 
 
     }
