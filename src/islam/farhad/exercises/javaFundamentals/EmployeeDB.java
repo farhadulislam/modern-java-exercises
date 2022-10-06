@@ -26,7 +26,11 @@ public class EmployeeDB {
                 new Employee(5, 35,"Raisul", "Civil", 44000),
                 new Employee(6, 34, "Bahar", "Electrical", 88000),
                 new Employee(7, 41, "Ali", "Mechanical", 99000),
-                new Employee(8,66, "Shuvo", "Software", 132000)
+                new Employee(8, 34, "Bahar", "Electrical", 88000),
+                new Employee(9, 41, "Jahan", "Mechanical", 99000),
+                new Employee(10, 34, "Asif", "Electrical", 88000),
+                new Employee(11, 41, "Mazid", "Mechanical", 99000),
+                new Employee(12,66, "Wazed", "Software", 132000)
 
         );
     }

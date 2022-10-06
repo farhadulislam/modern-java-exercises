@@ -43,6 +43,31 @@ public class DemoCollectors1 {
         System.out.println("Avg " + stats.getAverage());
         System.out.println("Count " + stats.getCount());
         System.out.println("Sum " + stats.getSum());
+
+        //Get stat from Employee class.
+        long count = empList1.stream().collect(Collectors.summarizingInt(Employee::getAge)).getCount();
+        System.out.println(count);
+        /***************** Collectors groupingBy -> Employee age |  dept . JP PLuralsight *****************/
+        Map<Integer, List<Employee>>  employeeGroupByAge = empList1
+                .stream().collect(Collectors.groupingBy(emp -> emp.getAge()));
+        System.out.println(employeeGroupByAge);
+        //employeeGroupByAge.entrySet().stream().forEach(System.out::println);
+
+        Map<String, Long> employeeGroupByDept = empList1.stream()
+                .collect(Collectors.groupingBy(emp -> emp.getDept(), Collectors.counting()));
+        System.out.println(employeeGroupByDept);
+
+        //Number of employees in civil
+        System.out.println( "Number of employees in civil : " + employeeGroupByDept.get("Civil"));
+
+        //dept with most employees
+        Map.Entry<String, Long> deptWithMostEmployees = employeeGroupByDept.entrySet().stream()
+                //.max(Comparator.comparing(entry-> entry.getValue()))
+
+                .max(Map.Entry.comparingByValue())
+                .orElseThrow();
+        System.out.println(deptWithMostEmployees);
+
     }
 
 }
