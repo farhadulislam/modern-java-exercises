@@ -81,5 +81,16 @@ public class DropTakeWhileSkipLimit {
         System.out.println("Count " + stats.getCount());
         System.out.println("Sum of cal " + stats.getSum());
 
+        //anyMatch(), noneMatch, allMatch
+        if(menu.stream().anyMatch(Dish::isVegetarian)){
+            System.out.println("The menu has vegetarian options.");
+        }
+        boolean isHealthy1 = menu.stream().allMatch(dish-> dish.getCalorie()<1000);
+        if(isHealthy1)
+            System.out.println("All dishes below 1000 cal. Menu is healthy");
+        boolean isHealthy2 = menu.stream().noneMatch(dish-> dish.getCalorie()>=1000);
+        if(isHealthy2)
+            System.out.println("None above 1000 cal. Menu is healthy");
+
     }
 }
