@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static islam.farhad.exercises.java8stream.Person.getPeople;
+import static java.util.stream.Collectors.partitioningBy;
 import static java.util.stream.Collectors.toMap;
 
 public class CollectorsByDevoxx {
@@ -37,5 +38,25 @@ public class CollectorsByDevoxx {
                 //.collect(Collectors.toMap(keyFunction, valueFunction));
                 //.collect(toMap(person -> person.getName(), person -> person.getAge() )));
                 .collect(toMap(Person::getName, Person::getAge)));
+
+        // unmodifiableList - allows you to respect immutability.
+
+        List<Integer> ages = getPeople().stream()
+                .map(person -> person.getAge())
+                //.collect(Collectors.toList());
+                        .collect(Collectors.toUnmodifiableList());
+
+        // ages.add(20); This won't work as we've used toUnmodificableList()
+        System.out.println(ages + "\n" + ages.getClass());
+
+        // Collectors joining - get comma separated  names' list of people aged under 30.
+        System.out.println(getPeople().stream()
+                .filter(person -> person.getAge() <30)
+                .map(person -> person.getName())
+                .map(String::toUpperCase)
+                .collect(Collectors.joining(",")));
+
+        // Partitionby
+        System.out.println(getPeople().stream().collect(partitioningBy(person -> person.getAge() % 2 == 0)));
     }
 }

@@ -45,7 +45,11 @@ public class Person {
     public static List<Person> getPeople (){
 
         return List.of(new Person("Raisul",  34),
-        new Person("Simrah", 10 ),
+        new Person("Simrah", 10 ), new Person("Sarah", 11 ),
+        new Person("Fattah", 3 ),
+        new Person("Mohammed", 9 ),
+        new Person("Hasnain", 7),
+        new Person("Jubair", 12 ),
         new Person ("Abid", 28 ),
         new Person ("Asif", 37),
         new Person ("Neptune", 37 ),
