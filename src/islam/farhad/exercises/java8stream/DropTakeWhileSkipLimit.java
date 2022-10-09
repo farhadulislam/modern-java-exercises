@@ -3,6 +3,7 @@ package islam.farhad.exercises.java8stream;
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
@@ -91,6 +92,29 @@ public class DropTakeWhileSkipLimit {
         boolean isHealthy2 = menu.stream().noneMatch(dish-> dish.getCalorie()>=1000);
         if(isHealthy2)
             System.out.println("None above 1000 cal. Menu is healthy");
+
+        // findAny() findFirst
+        Optional<Dish> vegDish = menu.stream()
+                .filter(Dish::isVegetarian)
+                .findAny(); // This returns an Optional<Dish>
+
+       menu.stream()
+                .filter(Dish::isVegetarian)
+                .findAny()
+               .ifPresent(dish-> System.out.println(dish.getDishName()));
+
+        menu.stream()
+                .filter(Dish::isVegetarian)
+                .findAny()
+                .ifPresent(dish-> System.out.println(dish.getDishName()));
+
+        List<Integer> someNumbers1 = Arrays.asList(1,2,3,4,5,6,7,8);
+        Optional<Integer> firstSquareDivisibleBy3 = someNumbers1.stream().map(n -> n*n)
+                .filter(n -> n % 3 ==0)
+                .findFirst();
+        System.out.println(firstSquareDivisibleBy3.get());
+
+
 
     }
 }
