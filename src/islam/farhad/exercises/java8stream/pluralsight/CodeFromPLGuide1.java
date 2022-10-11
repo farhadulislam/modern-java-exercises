@@ -46,5 +46,9 @@ public class CodeFromPLGuide1 {
                 .reduce( (sum, n) -> sum + n );
         System.out.println(total.getAsInt());
 
+
+
+
+
     }
 }
