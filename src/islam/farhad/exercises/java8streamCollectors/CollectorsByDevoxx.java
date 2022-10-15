@@ -47,6 +47,7 @@ public class CollectorsByDevoxx {
                         .collect(Collectors.toUnmodifiableList());
 
         // ages.add(20); This won't work as we've used toUnmodificableList()
+
         System.out.println(ages + "\n" + ages.getClass());
 
         // Collectors joining - get comma separated  names' list of people aged under 30.
@@ -58,5 +59,6 @@ public class CollectorsByDevoxx {
 
         // Partitionby
         System.out.println(getPeople().stream().collect(partitioningBy(person -> person.getAge() % 2 == 0)));
+
     }
 }
