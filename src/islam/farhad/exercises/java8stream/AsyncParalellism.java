@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import static java.lang.Thread.sleep;
 
-public class AsyncParalliism {
+public class AsyncParalellism {
 
     private static int transform(int num)  {
         try {
