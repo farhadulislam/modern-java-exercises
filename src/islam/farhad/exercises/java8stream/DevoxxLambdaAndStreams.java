@@ -7,6 +7,7 @@ import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.*;
 
@@ -83,6 +84,21 @@ public class DevoxxLambdaAndStreams {
                 .filter( e -> e % 2 ==0)
                 .map( e -> e * 2)
                 .findFirst()); // this returns an optional
+        System.out.println("Find distinct elements and sort them");
+        List<Integer> numbers = Arrays.asList(1,4,7,3,4,0,3,5,9,1,2,6,8,2,9);
+        numbers.stream()
+                        .filter( e -> e > 0)
+                                .sorted()
+                                        .distinct().forEach(System.out::println);
+
+
+        System.out.println("Create infinite stream");
+        System.out.println(Stream.iterate(1, e -> e + 1)
+                .filter( e -> e % 2 ==0)
+                .filter( e -> Math.sqrt(e)> 20)
+                .mapToInt(e -> e * 2)
+                .limit(3)
+                .sum());
     }
 
 
