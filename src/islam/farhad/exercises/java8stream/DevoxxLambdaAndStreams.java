@@ -6,6 +6,9 @@ import org.w3c.dom.ls.LSOutput;
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.*;
 
 public class DevoxxLambdaAndStreams {
     public static void main(String[] args) {
@@ -51,7 +54,9 @@ public class DevoxxLambdaAndStreams {
                         .filter( i-> i%2 ==0)
                         .mapToInt(i -> i * 2)
                         .sum());
-
+        System.out.println("Transforming int to double " + integers.stream()
+                .map( e -> e * 2.0)
+                .collect(Collectors.toUnmodifiableList()));
 
         // Running it inside thread and taking advantage of parallel stream
 
@@ -62,7 +67,25 @@ public class DevoxxLambdaAndStreams {
                 .filter( n -> n % 2 == 0)
                 .mapToInt(DevoxxLambdaAndStreams::compute)
                         .sum()));
+
+        System.out.println("Create map from stream");
+        System.out.println(Person.getPeople().stream().collect(toMap(
+                person -> person.getName() +"-" + person.getAge(),
+                person -> person)));
+
+        System.out.println("Grouping by name");
+        System.out.println(Person.getPeople().stream()
+                .collect(groupingBy(Person::getName,mapping(Person::getAge, toList()))));
+
+        System.out.println("Find first even number greater that 3 and double it");
+        System.out.println(integers.stream()
+                .filter( e -> e > 3)
+                .filter( e -> e % 2 ==0)
+                .map( e -> e * 2)
+                .findFirst()); // this returns an optional
     }
+
+
 
     public static int compute(int n){
         try{Thread.sleep(1000);}catch(Exception ex){}
