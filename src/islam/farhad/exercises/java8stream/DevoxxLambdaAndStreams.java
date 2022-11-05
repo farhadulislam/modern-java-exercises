@@ -5,6 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -99,6 +100,13 @@ public class DevoxxLambdaAndStreams {
                 .mapToInt(e -> e * 2)
                 .limit(3)
                 .sum());
+        //Devoxx Raoul & Warburton.
+        List<String> strings = Arrays.asList("The Alchemist");
+        List<String> cantChangeThis = Collections.unmodifiableList(strings);
+        strings.add("Things fall apart");
+        System.out.println(strings);
+        cantChangeThis.add("1984");
+        System.out.println(cantChangeThis);
     }
 
 
