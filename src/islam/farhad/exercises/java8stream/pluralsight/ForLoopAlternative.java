@@ -1,6 +1,6 @@
 package islam.farhad.exercises.java8stream.pluralsight;
 
-import islam.farhad.exercises.java8stream.Person;
+import islam.farhad.exercises.data.Person;
 
 import java.util.List;
 

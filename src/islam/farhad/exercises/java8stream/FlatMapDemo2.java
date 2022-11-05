@@ -1,5 +1,7 @@
 package islam.farhad.exercises.java8stream;
 
+import islam.farhad.exercises.data.Customer;
+
 import java.util.List;
 import java.util.stream.Collectors;
 

@@ -1,6 +1,6 @@
 package islam.farhad.exercises.java8optionals;
 
-import islam.farhad.exercises.java8stream.Customer;
+import islam.farhad.exercises.data.Customer;
 
 import java.util.List;
 import java.util.Optional;

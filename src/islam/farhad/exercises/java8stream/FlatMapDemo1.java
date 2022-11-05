@@ -1,5 +1,8 @@
 package islam.farhad.exercises.java8stream;
 
+import islam.farhad.exercises.data.City;
+import islam.farhad.exercises.data.Person;
+
 import java.util.List;
 
 public class FlatMapDemo1 {

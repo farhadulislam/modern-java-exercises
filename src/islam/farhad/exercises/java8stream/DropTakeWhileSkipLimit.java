@@ -1,5 +1,8 @@
 package islam.farhad.exercises.java8stream;
 
+import islam.farhad.exercises.data.Dish;
+import islam.farhad.exercises.data.DishDB;
+
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 import java.util.List;

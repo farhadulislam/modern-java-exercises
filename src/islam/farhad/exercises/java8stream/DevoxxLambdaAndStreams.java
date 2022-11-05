@@ -1,9 +1,8 @@
 package islam.farhad.exercises.java8stream;
 
 import islam.farhad.exercises.commonTools.TimeIt;
-import org.w3c.dom.ls.LSOutput;
+import islam.farhad.exercises.data.Person;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

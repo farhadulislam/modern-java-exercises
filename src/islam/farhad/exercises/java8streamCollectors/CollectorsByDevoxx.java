@@ -1,13 +1,13 @@
 package islam.farhad.exercises.java8streamCollectors;
 
-import islam.farhad.exercises.java8stream.Person;
+import islam.farhad.exercises.data.Person;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static islam.farhad.exercises.java8stream.Person.getPeople;
+import static islam.farhad.exercises.data.Person.getPeople;
 import static java.util.stream.Collectors.partitioningBy;
 import static java.util.stream.Collectors.toMap;
 

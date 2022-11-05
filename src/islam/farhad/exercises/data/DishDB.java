@@ -1,4 +1,6 @@
-package islam.farhad.exercises.java8stream;
+package islam.farhad.exercises.data;
+
+import islam.farhad.exercises.data.Dish;
 
 import java.util.Arrays;
 import java.util.List;

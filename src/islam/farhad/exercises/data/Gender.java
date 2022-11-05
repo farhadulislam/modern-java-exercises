@@ -1,4 +1,4 @@
-package islam.farhad.exercises.java8stream;
+package islam.farhad.exercises.data;
 
 public enum Gender {
     MALE,FEMALE, NOT_SET

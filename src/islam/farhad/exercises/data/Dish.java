@@ -1,6 +1,6 @@
-package islam.farhad.exercises.java8stream;
+package islam.farhad.exercises.data;
 
-import static islam.farhad.exercises.java8stream.Dish.DishType.*;
+import static islam.farhad.exercises.data.Dish.DishType.*;
 
 public class Dish {
     public enum DishType{

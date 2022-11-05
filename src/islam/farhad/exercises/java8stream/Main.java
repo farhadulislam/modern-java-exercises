@@ -1,5 +1,8 @@
 package islam.farhad.exercises.java8stream;
 
+import islam.farhad.exercises.data.Gender;
+import islam.farhad.exercises.data.Person;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
