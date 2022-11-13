@@ -30,7 +30,9 @@ public class DemoHashMap1 {
         System.out.println("Values");
         hashMap1.values().forEach(System.out::println);*/
 
+        for (Map.Entry<String, Integer>  entry : hashMap1.entrySet()){
+            System.out.println(entry);
 
-
+        }
     }
 }
