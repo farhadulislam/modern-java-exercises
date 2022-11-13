@@ -1,6 +1,8 @@
 package islam.farhad.exercises.javaFundamentals;
 
 import java.util.*;
+import islam.farhad.exercises.javaFundamentals.Student;
+import org.w3c.dom.ls.LSOutput;
 
 public class DemoCollectionInterface1 {
     public static void main(String [] args){
@@ -24,7 +26,7 @@ public class DemoCollectionInterface1 {
         studentList.stream().forEach(s-> System.out.println(s.getName()));// Using Stream API
 
         //Creating another list, adding all elements from previous list using addAll
-        List<Student> studentList2 = new ArrayList<>();
+        List<islam.farhad.exercises.javaFundamentals.Student> studentList2 = new ArrayList<>();
         studentList.addAll(studentList);
         studentList2.forEach(System.out::println);
         studentList2.removeAll(studentList);
@@ -69,14 +71,8 @@ public class DemoCollectionInterface1 {
         hashMap2.putIfAbsent("Minhaj", 9999);
         System.out.println(hashMap2);
 
-        
-
-
-
-
-
-
-
+        hashMap1.keySet().forEach(System.out::println);
+        hashMap2.values().forEach(System.out::println);
 
 
 

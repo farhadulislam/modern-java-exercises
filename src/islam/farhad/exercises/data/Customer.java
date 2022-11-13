@@ -40,7 +40,7 @@ public class Customer {
         this.customerPhonenumbers = customerPhonenumbers;
     }
 
-    protected static List<Customer> getCustomers(){
+    public static List<Customer> getCustomers(){
 
         return Stream.of(new Customer("Meena", "meena@gmail.com", List.of("4294", "643941")),
                 new Customer("Raju", "Raju@gmail.com", List.of("0114294", "011643941")),
