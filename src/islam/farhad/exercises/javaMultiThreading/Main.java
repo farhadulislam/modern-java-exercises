@@ -7,5 +7,8 @@ public class Main {
             MultiThreadExample1 myThread = new MultiThreadExample1(i);
             myThread.start();
         }
+
+        Thread thread1 = new Thread(()-> System.out.println("Running from " + Thread.currentThread()));
+        thread1.start();
     }
 }

@@ -63,7 +63,6 @@ public class DemoCollectors1 {
         //dept with most employees
         Map.Entry<String, Long> deptWithMostEmployees = employeeGroupByDept.entrySet().stream()
                 //.max(Comparator.comparing(entry-> entry.getValue()))
-
                 .max(Map.Entry.comparingByValue())
                 .orElseThrow();
         System.out.println(deptWithMostEmployees);
