@@ -6,10 +6,7 @@ public enum Size {
     LARGE("Large"),
     EXTRA_LARGE("Extra Large");
     private String description;
-
     Size(String description) {
         this.description = description;
     }
-
-
 }
