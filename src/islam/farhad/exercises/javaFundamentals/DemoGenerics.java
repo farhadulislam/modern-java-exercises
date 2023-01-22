@@ -26,5 +26,10 @@ public class DemoGenerics {
         System.out.println("Returing a generic TYPE");
         return something;
     }
+
+    private static <T> T returnSth(T value){
+        T something = value;
+        return something;
+    }
 }
 

@@ -1,8 +1,11 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.data;
+
+import islam.farhad.exercises.javaFundamentals.Phone;
+
 enum Screen {
     TOUCHSCREEN, KEY_WITH_TOUCHSCREEN, AMOLED, FLIP
 }
-public class CellPhone extends Phone{
+public class CellPhone extends Phone {
 
     private String cellPhoneModel;
     private Screen screen;
