@@ -13,6 +13,6 @@ public class DemoEnum {
 
         System.out.println(Arrays.asList(T_SHIRT_SIZE, JUMPER_SIZE, JACKET_SIZE).stream()
                 .filter( e -> e.equals(Size.SMALL))
-                .findFirst());
+                .findFirst().get());
     }
 }
