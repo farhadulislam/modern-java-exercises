@@ -1,7 +1,5 @@
 package islam.farhad.exercises.data;
 
-import islam.farhad.exercises.javaFundamentals.Phone;
-
 enum Screen {
     TOUCHSCREEN, KEY_WITH_TOUCHSCREEN, AMOLED, FLIP
 }

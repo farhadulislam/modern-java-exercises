@@ -1,4 +1,4 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.javaFundamentals.stringsAndChars;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

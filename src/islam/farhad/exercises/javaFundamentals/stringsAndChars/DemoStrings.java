@@ -1,4 +1,4 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.javaFundamentals.stringsAndChars;
 
 import java.util.Arrays;
 import java.util.List;

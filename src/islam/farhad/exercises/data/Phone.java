@@ -1,4 +1,4 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.data;
 
 public class Phone {
 

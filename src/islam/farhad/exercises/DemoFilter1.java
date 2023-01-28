@@ -1,7 +1,7 @@
 package islam.farhad.exercises;
 
-import islam.farhad.exercises.javaFundamentals.Employee;
-import islam.farhad.exercises.javaFundamentals.EmployeeDB;
+import islam.farhad.exercises.data.Employee;
+import islam.farhad.exercises.data.EmployeeDB;
 
 import java.util.Arrays;
 import java.util.HashMap;

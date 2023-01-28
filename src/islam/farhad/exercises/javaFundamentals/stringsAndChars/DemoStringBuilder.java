@@ -1,4 +1,4 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.javaFundamentals.stringsAndChars;
 
 public class DemoStringBuilder {
     public static void main(String[] args) {

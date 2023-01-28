@@ -1,7 +1,8 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.javaFundamentals.sorting;
 
 
-import java.sql.SQLOutput;
+import islam.farhad.exercises.data.Employee;
+
 import java.util.*;
 
 public class SortingMapUsingLambda {

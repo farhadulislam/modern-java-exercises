@@ -1,4 +1,7 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.javaFundamentals.sorting;
+
+import islam.farhad.exercises.data.Employee;
+import islam.farhad.exercises.data.EmployeeDB;
 
 import java.util.Arrays;
 import java.util.Collections;

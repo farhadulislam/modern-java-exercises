@@ -1,7 +1,7 @@
 package islam.farhad.exercises.java8streamCollectors;
 
-import islam.farhad.exercises.javaFundamentals.Employee;
-import islam.farhad.exercises.javaFundamentals.EmployeeDB;
+import islam.farhad.exercises.data.Employee;
+import islam.farhad.exercises.data.EmployeeDB;
 
 import java.util.*;
 import java.util.function.Function;

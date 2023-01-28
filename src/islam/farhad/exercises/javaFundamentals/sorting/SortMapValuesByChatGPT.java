@@ -1,4 +1,4 @@
-package islam.farhad.exercises.javaFundamentals;
+package islam.farhad.exercises.javaFundamentals.sorting;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;

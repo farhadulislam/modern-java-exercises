@@ -1,7 +1,6 @@
-package islam.farhad.exercises.java8stream;
+package islam.farhad.exercises.data;
 
 import islam.farhad.exercises.commonTools.TimeIt;
-import islam.farhad.exercises.data.Person;
 
 import java.util.Arrays;
 import java.util.Collections;
