@@ -15,6 +15,7 @@ public class CellPhone extends Phone {
         this.cellPhoneModel = cellPhoneModel;
         this.screen = screen;
     }
+
     @Override
     public void ring(){
         super.ring();

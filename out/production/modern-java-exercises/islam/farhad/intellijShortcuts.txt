@@ -7,7 +7,7 @@ CTRL + ALT + E -> Format line
 CTRL + E -> Recent Files
 
 CTRL + SHIFT  + A -> Find Action
-CTRL + SHIFT -> Completes a statement
+CTRL + SHIFT + ENTER-> Completes a statement
 
 //ALT
 ALT + 1 -> Expand code editor
