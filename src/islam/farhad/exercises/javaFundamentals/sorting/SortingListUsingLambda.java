@@ -25,7 +25,7 @@ public class SortingListUsingLambda {
         System.out.println("To sort in descending order");
         ints.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 
-        //Sorting based on a field, so we would use Employee class
+        //Sorting based on a field, so we would  Employee class
 
         List<Employee> employeeList = EmployeeDB.getEmployeeList();
         Collections.sort(employeeList, new Comparator<Employee>() {

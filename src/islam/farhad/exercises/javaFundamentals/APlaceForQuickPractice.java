@@ -2,20 +2,16 @@
 package islam.farhad.exercises.javaFundamentals;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class APlaceForQuickPractice {
     public static void main(String[] args) {
 
         List<Integer> integers = Arrays.asList(0, 1, 1, 2,2,4,5,9, 3,4,5,6);
-
         //use of external iterators
         for (int i =0; i<integers.size(); i++){
             System.out.println(integers.get(i));
         }
-
         //use of external iterators
         for (int i : integers){
             System.out.println(i);
@@ -31,6 +27,8 @@ public class APlaceForQuickPractice {
 
         Thread th = new Thread (()-> System.out.println("This is a thread"));
         th.start();
+        int sum1 = integers.stream().mapToInt(e -> e).sum();
+        System.out.println(String.format("Sum of ints : %d", sum1));
     }
 }
 
