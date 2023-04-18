@@ -1,0 +1,13 @@
+1.4.1 Static analysis tools for Java
+There are many static analyzers suitable for checking Java programs. Here’s an incomplete list of them:
+
+IntelliJ IDEA: a Java IDE which has a powerful built-in static analyzer. Supports many languages including Java. While it’s a commercial IDE, a free and open-source Community Edition is available, which includes most of the static analysis capabilities. In this book, we refer only to the functionality available in the free version. https://www.jetbrains.com/idea/
+SonarLint: a free static analyzer by Sonar, which is available as an IDE plugin. Supports many languages including Java. This static analyzer is also integrated into Sonar continuous code quality inspection platform SonarQube. https://www.sonarsource.com/products/sonarlint/
+Error Prone: an open-source static analyzer developed by Google that works as a Java compiler plugin. https://errorprone.info/
+PVS-Studio Analyzer: a proprietary static analyzer for C, C++, C# and Java. https://www.viva64.com/en/pvs-studio/
+PMD: An open-source rule-based extensible cross-language static code analyzer. Aside from Java, it detects various problems in other languages such as XML or EcmaScript. https://pmd.github.io/
+SpotBugs: static analyzer that checks Java bytecode rather than source files. https://spotbugs.github.io/
+Coverity: a proprietary static code analysis tool from Synopsis. It covers many languages and supports more than 70 frameworks for Java, JavaScript, C#, and so on. https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+Klocwork: a static code analysis tool owned by Perforce. It’s focused on security and safety and covers a range of programming languages, including C, C++, C#, Java, JavaScript, and Python. https://www.perforce.com/products/klocwork
+CodeQL: a static analyzer integrated with GitHub. If your project is hosted on GitHub, you can set up a workflow to scan the project automatically. It supports many languages and is capable of providing deep interprocedural analysis. It also includes a query language which allows you to extend the analyzer. [Reference] https://codeql.github.com/
+Other analyzers exist as well. Each of them has their own strong and weak sides. We are not going to compare them here, it’s up to you which one to use. Just note that using any static analyzer is much better than using none. Some projects use several analyzers at once to be able to catch more problems.

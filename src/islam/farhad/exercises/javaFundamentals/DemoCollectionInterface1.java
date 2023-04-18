@@ -1,25 +1,24 @@
 package islam.farhad.exercises.javaFundamentals;
 
 import java.util.*;
-import islam.farhad.exercises.javaFundamentals.Student;
-import org.w3c.dom.ls.LSOutput;
 
 public class DemoCollectionInterface1 {
     public static void main(String [] args){
 
-        Student s1 = new Student(230, "Puthifar" );
-        Student s2 = new Student(231, "Julekha" );
-        Student s3 = new Student(232, "Nefartithi" );
-        Student s4 = new Student(233, "Yousuf" );
-        Student s5 = new Student(235, "Akhanatoon" );
-        Student s6 = new Student(533, "Melisabu" );
-        Student s7 = new Student(600, "Aggamohor" );
+        islam.farhad.exercises.javaFundamentals.Student s1 = new islam.farhad.exercises.javaFundamentals.Student(230, "Puthifar" );
+        islam.farhad.exercises.javaFundamentals.Student s2 = new islam.farhad.exercises.javaFundamentals.Student(231, "Julekha" );
+        islam.farhad.exercises.javaFundamentals.Student s3 = new islam.farhad.exercises.javaFundamentals.Student(232, "Nefartithi" );
+        islam.farhad.exercises.javaFundamentals.Student s4 = new islam.farhad.exercises.javaFundamentals.Student(233, "Yousuf" );
+        islam.farhad.exercises.javaFundamentals.Student s5 = new islam.farhad.exercises.javaFundamentals.Student(235, "Akhanatoon" );
+        islam.farhad.exercises.javaFundamentals.Student s6 = new islam.farhad.exercises.javaFundamentals.Student(533, "Melisabu" );
+        islam.farhad.exercises.javaFundamentals.Student s7 = new islam.farhad.exercises.javaFundamentals.Student(600, "Aggamohor" );
 
-        List<Student> studentList = new ArrayList<>();
-        studentList.add(s1);
+        List<islam.farhad.exercises.javaFundamentals.Student> studentList = new ArrayList<>();
+        Collections.addAll(studentList, s1, s2, s3, s4);
+        /*studentList.add(s1);
         studentList.add(s2);
         studentList.add(s3);
-        studentList.add(s4);
+        studentList.add(s4);*/
 
 
         studentList.forEach(student -> System.out.println(student.getName()));
@@ -34,7 +33,7 @@ public class DemoCollectionInterface1 {
             System.out.println("List is empty");
 
         //Student list 3
-        List<Student> studentList3 = Arrays.asList(s1,s2,s3,s4,s5,s6, s7);
+        List<islam.farhad.exercises.javaFundamentals.Student> studentList3 = Arrays.asList(s1,s2,s3,s4,s5,s6, s7);
         studentList3.forEach(s-> System.out.println(s.getName()));
         //studentList3.removeIf(student -> student.getName().equals("Aggamohor"));
         //studentList3.forEach(s-> System.out.println(s.getName()));

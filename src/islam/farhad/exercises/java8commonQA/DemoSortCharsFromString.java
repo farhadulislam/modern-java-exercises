@@ -14,6 +14,16 @@ public class DemoSortCharsFromString {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println(map);
 
+        /*Duplicate elements*/
+//        List<String> duplicateElements = Arrays.stream(string.split(""))
+//                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+//                .entrySet().stream()
+//                .filter( x -> x.getValue()>1)
+//                .collect(Collectors.toList());
+//        System.out.println(duplicateElements);
+
+
+
 
     }
 }
