@@ -7,10 +7,12 @@ public class Demo_valueOf {
         Double doubleObj = Double.valueOf(20.23);
         String stringObj1 = String.valueOf('A');
         String stringObj2  = String.valueOf(true);
+        Long longObj1 = Long.valueOf(1000);
         System.out.println(integer);
         System.out.println(floatObj);
         System.out.println(doubleObj);
         System.out.println(stringObj1);
         System.out.println(stringObj1);
+        System.out.println(longObj1);
     }
 }
