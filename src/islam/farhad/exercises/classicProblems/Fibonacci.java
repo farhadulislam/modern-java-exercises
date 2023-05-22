@@ -8,6 +8,6 @@ public class Fibonacci {
         if(num<=1)
             return num;
         else
-            return ((num-1)+ (num-2));
+            return (num-1)+ (num-2);
     }
 }

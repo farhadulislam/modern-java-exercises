@@ -7,24 +7,24 @@ import java.util.Collections;
 import java.util.List;
 
 public class DemoComparableAndComparator {
-        static List<Student> studentList2 = new ArrayList<>();
+        static List<islam.farhad.exercises.javaFundamentals.Student> studentList2 = new ArrayList<>();
         static {
-            Student s5 = new Student(1000, "Johm");
-            Student s6 = new Student(900, "Alibaba");
-            Student s7 = new Student(1200, "Zaid");
-            Student s8 = new Student(3000, "Dory");
+            islam.farhad.exercises.javaFundamentals.Student s5 = new islam.farhad.exercises.javaFundamentals.Student(1000, "Johm");
+            islam.farhad.exercises.javaFundamentals.Student s6 = new islam.farhad.exercises.javaFundamentals.Student(900, "Alibaba");
+            islam.farhad.exercises.javaFundamentals.Student s7 = new islam.farhad.exercises.javaFundamentals.Student(1200, "Zaid");
+            islam.farhad.exercises.javaFundamentals.Student s8 = new islam.farhad.exercises.javaFundamentals.Student(3000, "Dory");
             Collections.addAll(studentList2,s5,s6,s7,s8);
         }
     public static void main (String [] args){
 
-        Student s1 = new Student(100, "Stian");
-        Student s2 = new Student(90, "Alan");
-        Student s3 = new Student(120, "Zahid");
-        Student s4 = new Student(30, "Cay");
+        islam.farhad.exercises.javaFundamentals.Student s1 = new islam.farhad.exercises.javaFundamentals.Student(100, "Stian");
+        islam.farhad.exercises.javaFundamentals.Student s2 = new islam.farhad.exercises.javaFundamentals.Student(90, "Alan");
+        islam.farhad.exercises.javaFundamentals.Student s3 = new islam.farhad.exercises.javaFundamentals.Student(120, "Zahid");
+        islam.farhad.exercises.javaFundamentals.Student s4 = new islam.farhad.exercises.javaFundamentals.Student(30, "Cay");
 
-        List<Student> studentList = Arrays.asList(s1,s2,s3,s4);
+        List<islam.farhad.exercises.javaFundamentals.Student> studentList = Arrays.asList(s1,s2,s3,s4);
 
-        Collections.sort(studentList);
+        Collections.sort(Collections.unmodifiableList(studentList));
         // Here, we are using Comparable<T> interface which is used for single sorting
         // The overriden compareTo() method sorts based on student id, if we were to sort based on
         // student name, for example, we would have to write another implementation of compareTo()
