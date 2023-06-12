@@ -6,6 +6,7 @@ public class MultiThreadExample1 extends Thread {
 
     MultiThreadExample1(int threadNumber) {
         this.threadNumber = threadNumber;
+        System.out.println(this.getName().toString());
     }
 
     @Override
