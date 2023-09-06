@@ -20,5 +20,8 @@ public class DemoStringBuilder2 {
         StringBuilder sb4 = sb3.reverse();
         System.out.println(sb3 +"\t" + sb4);
 
+        StringBuilder country = new StringBuilder("United Kingdom");
+        System.out.println(country.reverse().toString());
+
     }
 }

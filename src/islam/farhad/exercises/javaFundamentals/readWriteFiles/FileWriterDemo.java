@@ -1,4 +1,4 @@
-package islam.farhad.exercises.commonTools;
+package islam.farhad.exercises.javaFundamentals.readWriteFiles;
 
 import java.io.FileWriter;
 import java.io.IOException;

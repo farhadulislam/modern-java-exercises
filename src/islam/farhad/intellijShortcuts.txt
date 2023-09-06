@@ -31,11 +31,6 @@ CTRL + ALT + T -> Wrap a code block
 CTRL + ALT + V -> Wrap selected exp into var
 
 
-
-
-
-
-
 //ALT
 ALT + 1 -> Expand code editor
 ALT + Enter -> Suggestions

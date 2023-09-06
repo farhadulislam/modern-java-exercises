@@ -32,7 +32,15 @@ public class DemoHashMap1 {
 
         for (Map.Entry<String, Integer>  entry : hashMap1.entrySet()){
             System.out.println(entry);
-
         }
+
+        Map<String, String> names = new HashMap< >();
+        names.put("Farhad", "Islam");
+        names.put("Faysal", "Islam");
+        names.put("Raisul", "Islam");
+
+        names.replaceAll((k,v)-> v.toUpperCase());
+        System.out.println(names.values());
+
     }
 }

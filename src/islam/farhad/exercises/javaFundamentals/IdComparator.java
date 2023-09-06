@@ -1,8 +1,6 @@
 package islam.farhad.exercises.javaFundamentals;
 
-import java.util.Comparator;
-
-class IdComparator implements Comparator<Student> {
+/*class IdComparator implements Comparator<Student> {
 
     @Override
     public int compare(Student o1, Student o2) {
@@ -13,4 +11,4 @@ class IdComparator implements Comparator<Student> {
         else
             return -1;
     }
-}
+}*/
