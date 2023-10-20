@@ -48,5 +48,6 @@ public class DemoOptional_ChatGPT {
         // Use the map method to transform the value in the Optional
         Optional<String> upperCaseOpt = opt.map(String::toUpperCase);
         System.out.println("Optional with uppercase value: " + upperCaseOpt);
+
     }
 }

@@ -16,7 +16,7 @@ CTRL + F12 -> Navigate within a file
 CTRL + SHIFT  + I -> Preview definition
 CTRL + SHIFT  + A -> Find Action
 CTRL + SHIFT  + R -> Replace
-CTRL + SHIFT  + V -> Select text fragment that you've previously copied
+CTRL + SHIFT  + V -> Select text fragment that you've previously copiedJ
 CTRL + SHIFT  + W -> ?
 CTRL + SHIFT + ENTER-> Completes a statement
 CTRL + SHIFT + SPACE-> use after new keyword or to do type matching
