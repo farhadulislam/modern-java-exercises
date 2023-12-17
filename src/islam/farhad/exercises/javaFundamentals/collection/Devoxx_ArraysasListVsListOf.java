@@ -1,7 +1,6 @@
 package islam.farhad.exercises.javaFundamentals.collection;
 
 import java.util.List;
-
 public class Devoxx_ArraysasListVsListOf {
 
     public static void main(String[] args) {
@@ -11,7 +10,6 @@ public class Devoxx_ArraysasListVsListOf {
 
         System.out.println(numbers);
         System.out.println(numbers.getClass());
-
 
         try {
             numbers.add(4);

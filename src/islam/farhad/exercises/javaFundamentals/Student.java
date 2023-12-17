@@ -1,8 +1,6 @@
-package islam.farhad.exercises.data;
+package islam.farhad.exercises.javaFundamentals;
 
-import java.io.Serializable;
-
-public class Student implements Serializable, Comparable<Student> {
+public class Student implements Comparable<islam.farhad.exercises.data.Student> {
     private int id;
     private String name;
 
@@ -29,7 +27,7 @@ public class Student implements Serializable, Comparable<Student> {
 
     // Comparable Interface abstract method
     @Override
-    public int compareTo(Student st) {
+    public int compareTo(islam.farhad.exercises.data.Student st) {
 
         if(this.getId()==st.getId())
             return 0;
@@ -39,4 +37,3 @@ public class Student implements Serializable, Comparable<Student> {
             return -1;
     }
 }
-

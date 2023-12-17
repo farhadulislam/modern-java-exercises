@@ -26,15 +26,16 @@ CTRL + SHIFT + SPACE-> use after new keyword or to do type matching
 //CTRL + ALT
 CTRL + ALT + E -> Format line
 CTRL + ALT + L -> Format line
-
 CTRL + ALT + T -> Wrap a code block
 CTRL + ALT + V -> Wrap selected exp into var
+CTRL + ALT + SHIFT + INSERT -> Create a quick file
 
 
 //ALT
 ALT + 1 -> Expand code editor
 ALT + Enter -> Suggestions
 ALT + F7 -> All occurrences of code
+
 
 //ALT + SHIFT
 ALT + SHIT + UP  ARROW -> Move stmnt up

@@ -5,8 +5,6 @@ import java.io.*;
 public class Demo_BIF_Devoxx {
     public static void main(String[] args) throws IOException {
         readFile();
-
-
     }
 
     private static void readFile() throws IOException {

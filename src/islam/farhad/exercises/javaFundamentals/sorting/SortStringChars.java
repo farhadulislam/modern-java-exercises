@@ -1,7 +1,6 @@
-package islam.farhad.exercises.commonTools;
+package islam.farhad.exercises.javaFundamentals.sorting;
 
 import java.util.Arrays;
-import java.util.Locale;
 
 public class SortStringChars {
 
