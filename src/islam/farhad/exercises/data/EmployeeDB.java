@@ -2,6 +2,8 @@ package islam.farhad.exercises.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class EmployeeDB {
 
@@ -17,7 +19,6 @@ public class EmployeeDB {
     }
 
     public static List<Employee> getEmployeeList2 (){
-
         return Arrays.asList(
                 new Employee(1, 35,"Allan", "Civil", 54000),
                 new Employee(2, 34, "Robin", "Electrical", 23000),
@@ -26,7 +27,7 @@ public class EmployeeDB {
                 new Employee(5, 35,"Raisul", "Civil", 44000),
                 new Employee(6, 34, "Bahar", "Electrical", 88000),
                 new Employee(7, 41, "Ali", "Mechanical", 99000),
-                new Employee(8, 34, "Bahar", "Electrical", 88000),
+                new Employee(8, 34, "Mir", "Electrical", 88000),
                 new Employee(9, 41, "Jahan", "Mechanical", 99000),
                 new Employee(10, 34, "Asif", "Electrical", 88000),
                 new Employee(11, 41, "Mazid", "Mechanical", 99000),
@@ -34,4 +35,8 @@ public class EmployeeDB {
 
         );
     }
+        public static Map<String, Long> getAMapOfEmployeeNameAndSalary(){
+        return getEmployeeList2().stream()
+                .collect(Collectors.toMap(Employee::getName, Employee::getSalary));
+        }
 }

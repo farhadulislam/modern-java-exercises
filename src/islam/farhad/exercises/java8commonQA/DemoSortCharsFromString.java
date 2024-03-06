@@ -7,12 +7,13 @@ import java.util.stream.Collectors;
 
 public class DemoSortCharsFromString {
     public static void main(String[] args) {
-        String string ="Thisisastring";
-        String [] charsFromString = string.split("");
+        String string = "Thisisastring";
+        String[] charsFromString = string.split("");
         Arrays.stream(charsFromString).forEach(System.out::println);
         Map<String, Long> map = Arrays.stream(string.split(""))
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println(map);
+        System.out.println( countAGivenLettersAppearanceInAString(string, 'a'));
 
         /*Duplicate elements*/
 //        List<String> duplicateElements = Arrays.stream(string.split(""))
@@ -22,8 +23,11 @@ public class DemoSortCharsFromString {
 //                .collect(Collectors.toList());
 //        System.out.println(duplicateElements);
 
+    }
 
-
-
+    private static long countAGivenLettersAppearanceInAString(String string, char letter) {
+        return string.chars()
+                .filter(c -> c == letter)
+                .count();
     }
 }

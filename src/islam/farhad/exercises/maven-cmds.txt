@@ -1,0 +1,5 @@
+./mvnw clean
+
+./mvnw compile/test/package/verify
+
+.mvnw spring-boot:run
