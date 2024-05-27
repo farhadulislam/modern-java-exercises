@@ -8,7 +8,6 @@ public class Main {
 
         SimpleGuiDemo();
 
-
     }
 
     private static void SimpleGuiDemo(){

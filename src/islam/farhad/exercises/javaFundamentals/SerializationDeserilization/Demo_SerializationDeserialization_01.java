@@ -10,7 +10,7 @@ public class Demo_SerializationDeserialization_01 {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         //write
-        Student student1 = new Student(100, "Tom");
+        final Student student1 = new Student(100, "Tom");
         FileOutputStream f1 = new FileOutputStream(fileToWriteAndReadSerializedDate);
         ObjectOutputStream o1 = new ObjectOutputStream(f1);
 
