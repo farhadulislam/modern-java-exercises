@@ -1,0 +1,19 @@
+
+|
+java:S3518)";Make sure "count" can't be zero before doing this division.(£ñÔĞùÿÿÿÿJ$c3c858c6-279a-467f-8d64-4283dba03a4d
+}
+java:S1854"ARemove this useless assignment to local variable "listOfPeople2".(¥‘ÜåJ$bc742ea7-e5fa-415e-adc0-03f38f241b8b
+x
+java:S1854"7Remove this useless assignment to local variable "p10".(’‹œ øÿÿÿÿJ$a27f6fbf-7e30-4662-bd3f-63e25d05cf29
+w
+java:S1854"6Remove this useless assignment to local variable "p9".(¡¤ĞÿÿÿÿÿJ$a081d703-e280-4c9b-a98a-09cf7c84d68b
+h
+java:S1481"'Remove this unused "p9" local variable.(¡¤ĞÿÿÿÿÿJ$c8c52144-4ced-48f2-ae07-f7a47ac38682
+i
+java:S1481"(Remove this unused "p10" local variable.(’‹œ øÿÿÿÿJ$008264ee-09bc-4f1e-9fee-b3e957faafeb
+n
+java:S1481"2Remove this unused "listOfPeople2" local variable.(¥‘ÜåJ$a684069b-2dac-47f4-a9e4-44abf946928e
+|
+java:S1612";Replace this lambda with method reference 'Person::getAge'.(€Õ‘øÿÿÿÿJ$318a5282-e916-4365-89ef-3316753db5d3
+f	java:S106"+Replace this use of System.out by a logger.(‚æ¿äJ$1a6130bb-91dc-421c-9443-ecf25fee7762
+f	java:S106*"+Replace this use of System.out by a logger.(ùíĞ›J$f4b0e783-b16b-435c-81dd-7cc2ad46ab41

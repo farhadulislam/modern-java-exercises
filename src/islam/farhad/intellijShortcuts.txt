@@ -27,7 +27,10 @@ CTRL + ALT + E -> Format line
 CTRL + ALT + L -> Format line
 CTRL + ALT + T -> Wrap a code block
 CTRL + ALT + V -> Wrap selected exp into var
+
+//CTRL + ALT + SHIFT
 CTRL + ALT + SHIFT + INSERT -> Create a quick file
+CTRL + ALT + SHIFT + J -> Highlight one word and changes all of its occurrences.
 
 
 //ALT

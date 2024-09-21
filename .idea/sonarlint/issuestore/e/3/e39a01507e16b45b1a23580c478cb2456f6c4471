@@ -1,0 +1,15 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰úØ†J$8daea910-2178-4de1-a939-7bd5bee73d1f
+r
+java:S1144"6Remove this unused private "getCountOfTheWord" method.(»ãÐ¬J$4f410de1-82e7-49b3-898a-730677fef358
+€
+java:S1854
+"ERemove this useless assignment to local variable "wordToFindCountOf".(˜Ú‰`J$6e33561c-e5c4-4328-af9b-72ea2f6f1b06
+q
+java:S1481
+"6Remove this unused "wordToFindCountOf" local variable.(˜Ú‰`J$f75b21f2-8d1e-4332-82a2-e1eefeb33420
+|	java:S125"<This block of commented-out lines of code should be removed.(µØç§ÿÿÿÿÿJ$3e05a7c8-41e8-490e-9449-c77f54b2d04a
+f	java:S106"+Replace this use of System.out by a logger.(ŒÓûØJ$d7658829-627a-4f1d-a111-d37f773b826f
+|	java:S125"<This block of commented-out lines of code should be removed.(ü¡¥ùÿÿÿÿJ$85b616e3-a8c4-4d2a-9be8-ae5edb9a571b
+f	java:S106"+Replace this use of System.out by a logger.(“ åºJ$408111e5-1d3c-45e1-8a80-493bcddfa7ea
+k	java:S106 "+Replace this use of System.out by a logger.(Ž³ð¸ûÿÿÿÿJ$eed82abd-a610-4f56-a2f4-637c46418f9e

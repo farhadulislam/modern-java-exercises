@@ -1,0 +1,8 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷‚¾‡ýÿÿÿÿJ$41b39b36-fa5d-4e50-9d83-8d0572648c67
+k	java:S106	"+Replace this use of System.out by a logger.(ÎÁ†èùÿÿÿÿJ$0730efd4-918d-46a1-b2ec-0d98a5d0ea11
+‚
+java:S1858	"A"getName" returns a string, there's no need to call "toString()".(ÎÁ†èùÿÿÿÿJ$5f0ba7d0-82db-4b56-96b8-ef45fccc1f65
+f	java:S106"+Replace this use of System.out by a logger.(ô“°ùJ$dd5f063f-812c-4576-95b0-b4d181dcaee4
+š
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$19d6602c-a561-46e4-9c2c-f910162eb9c1

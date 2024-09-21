@@ -1,0 +1,15 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼Ôâ–J$07c85613-41a0-4c60-aa68-f51d4e8a1e31
+™
+java:S1104	"XMake listOfPrimes a static final constant or non-public and provide accessors if needed.( €â•ÿÿÿÿÿJ$bdc165d1-8df1-4c54-bb8a-d32a5a3f5dd9
+s
+java:S1444	"2Make this "public static listOfPrimes" field final( €â•ÿÿÿÿÿJ$4756dfac-7c7a-443b-8e7d-040ea84cb53c
+^
+java:S2386	"Make this member "protected".( €â•ÿÿÿÿÿJ$a695c264-7d41-4d39-a7ba-c9678d6839d5
+h
+java:S1144"-Remove this unused private "isPrime2" method.(­×¹J$d3874012-3db2-41a5-a0c8-75afbff3cc11
+w
+java:S1612";Replace this lambda with method reference 'Prime::isPrime'.(êãò¥J$514371ff-a98b-4ca7-b55d-ace5456e3327
+k	java:S106"+Replace this use of System.out by a logger.(§Ž´üøÿÿÿÿJ$25148eb1-0bd4-4dc0-8dfd-30f716dd4099
+}
+java:S1126"AReplace this if-then-else statement by a single return statement.(Û½µåJ$731e128e-8e4a-4636-8708-fc6f9b959b4a

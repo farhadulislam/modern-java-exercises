@@ -1,0 +1,32 @@
+
+E	java:S106"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ
+W
+java:S1612"<Replace this lambda with method reference 'String::valueOf'.(ð‹ûùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¢Ê†¢ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¢Ê†¢ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Óšþžýÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(¬ßë‹
+@	java:S106-"+Replace this use of System.out by a logger.(êÖˆ
+E	java:S106/"+Replace this use of System.out by a logger.(¡«Ûäúÿÿÿÿ
+@	java:S1065"+Replace this use of System.out by a logger.(ÖáÜ
+E	java:S106:"+Replace this use of System.out by a logger.(—…áîùÿÿÿÿ
+z
+java:S6204<"_Replace this usage of 'Stream.collect(Collectors.toUnmodifiableList())' with 'Stream.toList()'.(€„íÙùÿÿÿÿ
+@	java:S106A"+Replace this use of System.out by a logger.(ÆÀûý
+E	java:S106H"+Replace this use of System.out by a logger.(×¿‰Šøÿÿÿÿ
+?	java:S106I"+Replace this use of System.out by a logger.(ÏØ£U
+@	java:S106M"+Replace this use of System.out by a logger.(Œ¨¹“
+E	java:S106N"+Replace this use of System.out by a logger.(Æî‹ªúÿÿÿÿ
+@	java:S106Q"+Replace this use of System.out by a logger.(‰‚€
+@	java:S106R"+Replace this use of System.out by a logger.(¬ßë‹
+@	java:S106W"+Replace this use of System.out by a logger.(­öÊø
+E	java:S106\"+Replace this use of System.out by a logger.(†Õ¿÷øÿÿÿÿ
+E	java:S106_"+Replace this use of System.out by a logger.(ÏÿŠ™üÿÿÿÿ
+E	java:S106`"+Replace this use of System.out by a logger.(í²À¼üÿÿÿÿ
+@	java:S106j"+Replace this use of System.out by a logger.(•È®À
+@	java:S106l"+Replace this use of System.out by a logger.(§™´
+y
+java:S2142r"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(È®úíüÿÿÿÿ
+C	java:S108r")Either remove or fill this block of code.(È®úíüÿÿÿÿ
