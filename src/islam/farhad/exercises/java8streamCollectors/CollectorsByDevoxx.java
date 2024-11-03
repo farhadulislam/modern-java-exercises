@@ -42,7 +42,7 @@ public class CollectorsByDevoxx {
         // unmodifiableList - allows you to respect immutability.
 
         List<Integer> ages = getPeople().stream()
-                .map(person -> person.getAge())
+                .map(Person ::getAge)
                 //.collect(Collectors.toList());
                         .collect(Collectors.toUnmodifiableList());
 
