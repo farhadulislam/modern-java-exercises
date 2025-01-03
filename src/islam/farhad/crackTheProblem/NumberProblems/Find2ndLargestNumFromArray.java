@@ -1,4 +1,4 @@
-package islam.farhad.FindSomething;
+package islam.farhad.crackTheProblem.NumberProblems;
 
 import java.util.Comparator;
 import java.util.List;

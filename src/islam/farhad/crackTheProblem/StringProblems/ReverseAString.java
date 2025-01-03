@@ -1,4 +1,4 @@
-package islam.farhad.crackTheProblem;
+package islam.farhad.crackTheProblem.StringProblems;
 
 public class ReverseAString {
     public static void main(String[] args) {

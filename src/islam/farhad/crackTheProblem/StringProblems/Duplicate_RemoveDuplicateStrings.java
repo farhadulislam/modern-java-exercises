@@ -1,4 +1,4 @@
-package islam.farhad.crackTheProblem;
+package islam.farhad.crackTheProblem.StringProblems;
 
 import java.util.*;
 import java.util.stream.Collectors;

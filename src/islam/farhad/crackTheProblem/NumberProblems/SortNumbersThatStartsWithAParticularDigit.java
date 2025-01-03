@@ -1,4 +1,4 @@
-package islam.farhad.crackTheProblem;
+package islam.farhad.crackTheProblem.NumberProblems;
 
 import java.util.Arrays;
 import java.util.List;

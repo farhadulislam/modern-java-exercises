@@ -1,6 +1,7 @@
 package islam.farhad.crackTheCode;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class GetMaxNumFromArray {
 
@@ -10,6 +11,7 @@ public class GetMaxNumFromArray {
         System.out.printf("Max num %d", maxNum);
         //
         System.out.println(getMaxNumUsingStream(null));
+        System.out.println(getMaxFromAnArray(Arrays.asList(1,2,3,45)));
     }
 
     private static int getMaxNumUsingStream(int[] numbers) {
@@ -23,6 +25,10 @@ public class GetMaxNumFromArray {
                 max = num;
         }
         return max;
+    }
+    private static int getMaxFromAnArray(List<Integer> list) {
+       return list.stream()
+                .max(Comparable::compareTo).get();
     }
 }
 
