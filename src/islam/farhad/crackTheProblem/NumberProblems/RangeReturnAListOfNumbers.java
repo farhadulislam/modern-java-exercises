@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class NumberRange {
+public class RangeReturnAListOfNumbers {
     public static void main(String[] args) {
         System.out.println(getListOfNumbersUsingForLoop(10, 20));
         System.out.println(getListOfNumbersUsingIntStream(20, 30));

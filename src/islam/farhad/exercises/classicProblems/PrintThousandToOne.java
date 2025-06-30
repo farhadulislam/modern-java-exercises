@@ -5,7 +5,7 @@ public class PrintThousandToOne {
 
     public static void main(String [] args){
         printTabbedNumbers();
-        printTabbedNumbersByChatGPT();
+       // printTabbedNumbersByChatGPT();
     }
 
     private static void printTabbedNumbers() {
