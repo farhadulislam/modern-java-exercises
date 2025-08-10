@@ -1,4 +1,4 @@
-package islam.farhad.exercises.classicProblems;
+package islam.farhad.classicProblems;
 
 public class Palindrome {
     private static String type;

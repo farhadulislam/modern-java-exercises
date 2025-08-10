@@ -1,4 +1,4 @@
-package islam.farhad.exercises.classicProblems;
+package islam.farhad.classicProblems;
 
 import islam.farhad.exercises.data.Data;
 

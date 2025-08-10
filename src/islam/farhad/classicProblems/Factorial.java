@@ -1,4 +1,4 @@
-package islam.farhad.exercises.classicProblems;
+package islam.farhad.classicProblems;
 
 import java.math.BigInteger;
 

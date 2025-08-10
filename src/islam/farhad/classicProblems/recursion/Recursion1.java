@@ -1,4 +1,4 @@
-package islam.farhad.exercises.classicProblems.recursion;
+package islam.farhad.classicProblems.recursion;
 
 public class Recursion1 {
     public static void main(String[] args) {
