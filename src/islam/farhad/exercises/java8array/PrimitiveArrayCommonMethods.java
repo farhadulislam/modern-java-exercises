@@ -1,8 +1,9 @@
 package islam.farhad.exercises.java8array;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
-public class ArrayUtils {
+public class PrimitiveArrayCommonMethods {
     public static void main(String[] args) {
 
         int[] ids = new int[10];
@@ -31,12 +32,35 @@ public class ArrayUtils {
         int [] cloned  = src.clone();
         printPrimitiveArrayElements(cloned);
 
+        int[] messy_array = {30, 12, 3, 4, 100, 202, 5, 44};
+        System.out.println("Unsorted array");
+        printPrimitiveArrayElements(messy_array);
+        Arrays.sort(messy_array);
+        System.out.println("Sorted array");
+        printPrimitiveArrayElements(messy_array);
+
+        //String is object type btw : used for demo here only to take advantage of Comparator of String class
+
+        String [] another_messy_array = {"Thailand", "Bangladesh", "UAE"};
+        Arrays.sort(another_messy_array, Comparator.reverseOrder());
+        System.out.println("Sorted array");
+        printPrimitiveArrayElements(another_messy_array);
+
 
     }
 
     private static void printPrimitiveArrayElements(int[] nums) {
         System.out.println("PRINTING ...  " +"input: " + nums +", length: " + nums.length);
         for (int num : nums) {
+            System.out.println("");
+            System.out.printf("Element: %s", num);
+        }
+        System.out.println("");
+    }
+
+    private static void printPrimitiveArrayElements(String [] nums) {
+        System.out.println("PRINTING ...  " +"input: " + nums +", length: " + nums.length);
+        for (String num : nums) {
             System.out.println("");
             System.out.printf("Element: %s", num);
         }
